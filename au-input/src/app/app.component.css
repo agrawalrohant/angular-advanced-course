@@ -29,3 +29,7 @@ h1 {
   margin-bottom: 30px;
   margin-top: 50px;
 }
+
+.stripe-field au-fa-input{
+  border: 1px solid #4D90FE
+}
