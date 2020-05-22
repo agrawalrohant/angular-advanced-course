@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, ContentChild, AfterContentInit, HostBinding } from '@angular/core';
-import { InputRefDirective } from '../common/input-ref.directive';
+import { InputRefDirective } from '../common/directive/input-ref.directive';
 
 @Component({
   selector: 'au-fa-input',
@@ -17,7 +17,6 @@ export class AuFaInputComponent implements OnInit, AfterContentInit {
   @HostBinding('class.input-focus')
   get isInputFocus() {
     return this.input ? this.input.focus : false;
-
   }
 
   constructor() { }

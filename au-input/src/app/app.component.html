@@ -19,7 +19,6 @@
     <h1>Font Awesome</h1>
 
     <div class="form">
-
       <div class="form-row">
         <label>Normal Input:</label>
         <input class="normal-input" type="email" name="email" placeholder="E-mail">
@@ -50,5 +49,41 @@
         </au-fa-input>
       </div>
     </div>
+
+    <h1>Angular Material</h1>
+
+    <div class="form">
+      <div class="form-row">
+        <label>Normal Input:</label>
+        <input class="normal-input" type="email" name="email" placeholder="E-mail">
+      </div>
+
+      <div class="form-row">
+        <label>Email:</label>
+        <au-ma-input icon="email" id="email-field">
+          <input autocomplete="off" class="test-class" type="email" name="email" placeholder="E-mail">
+        </au-ma-input>
+      </div>
+      <div class="form-row au-fa-input-red-theme">
+        <label>Password:</label>
+        <au-ma-input icon="lock" id="password">
+          <input #input class="normal-input" type="password" name="password" placeholder="Password">
+        </au-ma-input>
+      </div>
+      <div class="form-row stripe-field">
+        <label>Identity:</label>
+        <au-ma-input icon="perm_identity">
+          <input #input class="normal-input" type="text" name="identity" placeholder="Identity">
+        </au-ma-input>
+      </div>
+      <div class="form-row">
+        <label>Receipt:</label>
+        <au-ma-input icon="receipt">
+          <input #input class="normal-input" type="text" name="receipt" placeholder="Receipt">
+        </au-ma-input>
+      </div>
+    </div>
+
+
   </div>
 </body>
