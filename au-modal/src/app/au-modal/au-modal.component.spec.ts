@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AuModelComponent } from './au-model.component';
+import { AuModalComponent } from './au-modal.component';
 
-describe('AuModelComponent', () => {
-  let component: AuModelComponent;
-  let fixture: ComponentFixture<AuModelComponent>;
+describe('AuModalComponent', () => {
+  let component: AuModalComponent;
+  let fixture: ComponentFixture<AuModalComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AuModelComponent ]
+      declarations: [AuModalComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AuModelComponent);
+    fixture = TestBed.createComponent(AuModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

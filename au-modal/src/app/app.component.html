@@ -19,8 +19,7 @@
 
     <h1>Modal Examples</h1>
 
-    <au-model class="auth-modal">
-
+    <ng-template #authModalBody>
       <au-tab-panel>
         <au-tab title="Login">
           <form>
@@ -56,12 +55,10 @@
           </form>
         </au-tab>
       </au-tab-panel>
+    </ng-template>
 
+    <au-model class="auth-modal" [body]="authModalBody" *auModelOpenOnClick="[loginButton,signUpButton]">
     </au-model>
-
-
-
-
 
     <div class="modal-buttons">
 
