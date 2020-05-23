@@ -2,17 +2,18 @@
 
 
 
-import {ModuleWithProviders, NgModule} from '@angular/core';
+import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { AuModelComponent } from './au-model.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [AuModelComponent],
   imports: [
     CommonModule
   ],
-  exports: []
+  exports: [AuModelComponent]
 })
 export class AuModalModule {
 

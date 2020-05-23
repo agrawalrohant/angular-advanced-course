@@ -6,6 +6,10 @@
   padding-top:65px;
 }
 
+/deep/ .auth-modal .modal-body{
+  min-width: 300px;  
+}
+
 label {
   width: 100px;
   text-align: right;
